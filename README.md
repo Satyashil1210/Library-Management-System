@@ -35,35 +35,7 @@ Show some ❤️ and 🌟 the repo to support the project
 - Reserving a book for specific dates
 - Showing the Achievements, Event Gallery
 
-## Setup 🔥
-
-- Fork the Repo
-
-- Clone the repo to your local machine
-  `git clone <repo-url>`
-
-### Frontend Setup 🍧
-
-1. Get into the chatapp directory
-   `cd frontend`
-
-2. Run `yarn` to install dependencies
-
-3. Create a `.env` file and create variables as mentioned in the `.env.example` with the values
-
-4. Run `yarn start` to start the application
-
-### Backend Setup 🍿
-
-1. Get into backend directory `cd backend`
-
-2. Run `yarn` to install dependencies
-
-3. Create a MongoDB account and get the MONOGO_URL for connecting the server and the Database
-
-4. Create a `.env` file and create variables as mentioned in the `.env.example` with the values
-
-5. Run `nodemon server.js` to start the server [Should have installed nodemon globally]
+#
 
 ## Technologies 🛠
 
@@ -88,15 +60,4 @@ Show some ❤️ and 🌟 the repo to support the project
 - [NodeJs Documentation](https://nodejs.org/en/docs/)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 
-## Author 📝
 
-- [@iampranavdhar](https://www.github.com/iampranavdhar)
-
-## Connect Me On 🌍
-
-[![twitter badge](https://img.shields.io/badge/twitter-Pranavdhar-0077b5?style=social&logo=twitter)](https://twitter.com/iampranavdhar)<br/>
-[![linkedin badge](https://img.shields.io/badge/linkedin-Pranavdhar-0077b5?style=social&logo=linkedin)](https://in.linkedin.com/in/sai-pranavdhar-reddy-nalamalapu-038104206)
-
-## License 🏆
-
-This repository is licensed under MIT License. Find [LICENSE](LICENSE) to know more
