@@ -1,0 +1,142 @@
+:root {
+  --header-height: 64px;
+}
+
+/* Background */
+.books-bg {
+  min-height: 100vh;
+  padding: calc(var(--header-height) + 40px) 20px 40px;
+  background: #f0f4ff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Section title */
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #0a3cff;
+  margin-bottom: 32px;
+}
+
+/* Section block spacing */
+.section-block {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Gap between sections */
+.section-gap {
+  height: 60px;
+}
+
+/* Grid */
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 28px;
+}
+
+/* Book card */
+.book-box {
+  background: white;
+  padding: 18px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.10);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.book-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 14px 32px rgba(0,0,0,0.18);
+}
+
+/* Book image */
+.book-image {
+  width: 150px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+/* Details */
+.book-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.book-author {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.book-category {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 16px;
+  background: #e7edff;
+  color: #0a3cff;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,20,0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  z-index: 999;
+}
+
+.modal-box {
+  background: white;
+  width: 90%;
+  max-width: 800px;
+  padding: 26px;
+  border-radius: 16px;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-flex {
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+.modal-image {
+  width: 180px;
+  height: 260px;
+  border-radius: 10px;
+}
+
+.modal-details {
+  flex: 1;
+}
+
+.modal-btn {
+  padding: 10px 16px;
+  background: #0a3cff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
